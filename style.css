@@ -1,0 +1,114 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Condensed&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&family=Roboto+Condensed&display=swap');
+
+nav {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 75px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.brand-logo img {
+    height: 75px;
+    position: relative;
+    top: -5px;
+}
+
+.page-footer {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+}/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.card-panel {
+    background: #1e3c72;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+.sidenav {
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.sidenav-trigger {
+    top: 5px;
+}   
+
+.footer-copyright center {
+    background: #040404;
+}
+
+/* .btn {
+    border-radius: 30px; */
+}
+.material-icons {
+    letter-spacing: -5px;
+}
+p b del {
+   position: absolute;
+   top: 5px;
+   right: 23px;
+   color: #000000;
+   font-size: small;
+}
+.flow-text {
+    position: relative;
+    bottom: 30px;
+}
+#paragraph {
+    position: relative;
+    bottom: 30px;
+}
+
+div #Solutions {
+    position: absolute;
+    top: -60px;
+    left: 60px;
+}
+div #Products {
+    position: absolute;
+    top: -60px;
+    left: 60px;
+}
+
+div #Solutions ul {
+    color: #040404;
+}
+div .nav-wrapper {
+    position: relative;
+    top: 5px;
+}
+.prod {
+    position: absolute;
+    right: 40px;
+}
+.soln {
+    position: absolute;
+    right: 150px;
+}
+#about {
+    position: absolute;
+    top: -60px;
+    left: 40px;
+}
+.drop {
+    position: absolute;
+    bottom: -5px;
+}
+.slider .card {
+    height: 20px;
+}
+.star {
+    position: absolute;
+    word-spacing: -10px;
+}
+.feedback {
+   font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+}

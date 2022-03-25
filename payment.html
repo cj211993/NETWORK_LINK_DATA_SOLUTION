@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/0f85b19a0a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<title>Save Web Form Data to Spreadsheets</title>
+	<script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+        <script>
+            function SubForm (){
+                $.ajax({
+                    url:"https://api.apispreadsheets.com/data/RYbkAL5S2CMuMtVS/",
+                    type:"post",
+                    data:$("#myForm").serializeArray(),
+                    success: function(){
+                        M.toast({html: 'Form Data Submitted', classes: 'blue rounded'})
+                    },
+                    error: function(){
+                        alert("There was an error :(")
+                    }
+                });
+            }
+        </script>
+    </head>
+    <body>
+
+        <div class="container">
+            <h1 class="center">form</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-content">
+                            <form id="myForm">
+                                <label>NAME</label>
+                                <input name="NAME" />
+                                <br/>
+                                <label>CP NUMBER</label>
+                                <input name="CP NUMBER" />
+                                <br/>
+                                <label>ADDRESS</label>
+                                <input name="ADDRESS" />
+                                <br/>
+                            </form>
+                            <button class="btn" onclick='SubForm ()'>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+
+        <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+    </html>
